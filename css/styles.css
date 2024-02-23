@@ -95,10 +95,6 @@ body {
 .section-first {
   background-color: #2e2f42;
   padding: 188px 0;
-  max-width: 1440p;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .effective {
   font-size: 56px;
@@ -278,4 +274,13 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-app {
+  width: 40px;
+  height: 40px;
 }
