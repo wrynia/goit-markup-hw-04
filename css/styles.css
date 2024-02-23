@@ -200,7 +200,11 @@ body {
 
 .portfolio {
   margin-bottom: 72px;
+  text-align: center;
+  font-size: 36px;
+  height: 40px;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
