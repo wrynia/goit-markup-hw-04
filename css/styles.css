@@ -101,7 +101,8 @@ section {
   color: #434455;
 }
 .section-first {
-  background-color: #2e2f42;
+  /* background-color: #2e2f42; */
+
   padding: 188px 0;
 }
 .effective {
@@ -377,4 +378,8 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+.icon-set-socialm {
+  margin-right: 120px;
 }
