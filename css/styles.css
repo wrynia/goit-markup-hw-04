@@ -325,3 +325,19 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+.hero {
+  max-width: 1440px;
+  position: absolute;
+  top: 72px;
+}
+
+.table {
+  z-index: -2;
+}
+
+.gradient {
+  z-index: -1;
+  opacity: 70%;
+  height: 600px;
+  width: 100vw;
+}
