@@ -348,30 +348,30 @@ ol {
   background-color: #4d5ae5;
   color: white;
 }
-.sm {
+.socialm {
   /* width: 12px;
   height: 12px; */
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-.sm-footer {
+.socialm-footer {
   width: 24px;
   height: 24px;
   border-radius: 50%;
 }
 
-.icon.sm:hover,
-.icon.sm:focus {
+.icon.socialm:hover,
+.icon.socialm:focus {
   background-color: #404bbf;
 }
 
-.icon.sm-footer:hover,
-.icon.sm-footer:focus {
+.icon.socialm-footer:hover,
+.icon.socialm-footer:focus {
   background-color: #31d0aa;
 }
 
-.sm-footer-title {
+.socialm-footer-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
