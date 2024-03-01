@@ -259,6 +259,9 @@ section {
 
 .portfolio-media {
   width: calc((100% - 48px) / 3);
+  box-shadow: none;
+  transition: box-shadow;
+  position: relative;
 }
 .portfolio-media:hover,
 .portfolio-media:focus {
@@ -475,4 +478,8 @@ ol {
 }
 .icon-sm {
   fill: #f4f4fd;
+}
+.link-footer:hover,
+.link-footer:focus {
+  background-color: #31d0aa;
 }
