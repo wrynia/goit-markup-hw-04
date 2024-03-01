@@ -57,12 +57,15 @@ section {
   position: relative;
 }
 
-.current:active::after {
+.current::after {
   content: "";
   color: #404bbf;
   width: 100%;
   height: 4px;
   border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
 }
 
 .mail-tel {
