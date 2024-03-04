@@ -313,6 +313,9 @@ section {
   padding: 32px 16px;
   border-top: none;
 }
+.card {
+  padding: 32px 0;
+}
 .portfolio-image {
   position: relative;
   overflow: hidden;
@@ -478,6 +481,17 @@ ol {
   display: inline-block;
   background-color: #4d5ae5;
   color: white;
+}
+.icon-set-sm {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 9px 16px 0px 16px;
+}
+
+.sm-link:hover,
+.sm-link:focus {
+  background-color: #404bbf;
 }
 .socialm {
   /* width: 12px;
