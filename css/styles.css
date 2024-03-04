@@ -47,14 +47,26 @@ section {
 
   padding: 24px 0;
 }
-.link-classes:hover {
-  color: #404bbf;
-}
+
+.link-classes:hover,
 .link-classes:focus {
   color: #404bbf;
 }
+
 .current {
   position: relative;
+  color: #404bbf;
+}
+
+.current::after {
+  content: "";
+  background-color: #404bbf;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
 }
 
 .current::after {
@@ -229,7 +241,7 @@ section {
 }
 .container {
   width: 1158px;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
   padding: 0 15px;
   margin: 0 auto;
 }
